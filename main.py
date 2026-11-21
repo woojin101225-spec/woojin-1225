@@ -3,6 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 import streamlit as st
+import plotly
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
@@ -663,4 +664,3 @@ with tab3:
                 )
     except Exception as e:
         st.warning(f"⚠️ 이 부분은 데이터 형식 때문에 표시하지 못했어요: {e}")
-
